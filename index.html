@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="initial-scale=1, maximum-scale=3, minimum-scale=1, user-scalable=no">
+		<title></title>
+		<link rel="stylesheet" href="css/base.css" />
+		<script type="text/javascript" src="js/websocket.js"></script>
+	</head>
+
+	<body>
+		<div class="wrap">
+			<div class="sideleft">
+				<h1>在线人员</h1>
+				<ul>
+					<li>
+						<div class="headimg"></div>
+						<span>18768875722</span>
+					</li>
+					<li>
+						<div class="headimg"></div>
+						<span>15277365552</span>
+					</li>
+				</ul>
+			</div>
+			<div class="sideright">
+				<div id="liao">
+					<div>
+						<div class="headimg"></div>
+						<div class="aaa">你好,B先生</div>
+					</div>
+					<div style="float: right;">
+						<div class="bbb" id="me">比分和健康</div>
+						<div class="headimg"></div>
+					</div>
+				</div>
+				<div class="connect">
+					<div>
+						<input type="text" style="height: 40px;width: 180px;" id="content" />
+					</div>
+					<div>
+						<input type="text" id="num" style="position: absolute;bottom: 10px;right: 140px;" />
+						<button class="dl" onclick="connect()">登录</button>
+						<button class="ql" onclick="send()">群聊</button>
+						<button class="sl">私聊</button>
+					</div>
+				</div>
+			</div>
+
+			<!--<div id="logs"></div>-->
+
+		</div>
+		<script>
+		</script>
+	</body>
+
+</html>
